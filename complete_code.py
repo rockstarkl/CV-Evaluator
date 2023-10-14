@@ -64,7 +64,6 @@ def analyze_sentiment(text):
     sentiment = analysis.sentiment.polarity
     return sentiment
 
-### Function to perform keyword extraction and highlight relevant skills and experiences
 def extract_and_highlight_keywords(cv_text, job_description_text):
     # Tokenize and preprocess CV and job description
     preprocessed_cv_text = preprocess_text(cv_text)
